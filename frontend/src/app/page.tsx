@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
+import { UserList } from "@/components/user-list";
 
 export default function Home() {
   return (
@@ -68,6 +69,8 @@ export default function Home() {
             CodeRabbit
           </Button>
         </div>
+
+        <UserList />
       </main>
     </div>
   );
